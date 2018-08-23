@@ -1,0 +1,46 @@
+opt_in_rules:
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - contains_over_first_not_nil
+  - empty_count
+  - explicit_init
+  - extension_access_modifier
+  - first_where
+  - joined_default_parameter
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - nimble_operator
+  - number_separator
+  - overridden_super_call
+  - override_in_extension
+  - pattern_matching_keywords
+  - private_action
+  - prohibited_super_call
+  - quick_discouraged_call
+  - quick_discouraged_focused_test
+  - quick_discouraged_pending_test
+  - redundant_nil_coalescing
+  - single_test_class
+  - sorted_first_last
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+
+disabled_rules:
+  - colon
+  - force_cast
+  - fatal_error_message
+  - trailing_whitespace
+
+identifier_name:
+  excluded:
+    - id
+line_length: 180
+cyclomatic_complexity: 12
+file_length: 550
+function_body_length: 80
+function_parameter_count: 8
+type_body_length: 300
+number_separator:
+  minimum_length: 5

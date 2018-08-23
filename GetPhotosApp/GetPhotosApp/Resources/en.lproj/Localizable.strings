@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GetPhotosApp
+
+  Created by Kseniia on 8/20/18.
+  Copyright © 2018 Sezorus. All rights reserved.
+*/
+
+"Default.Titles.Ok" = "Ok";
+
+"Settings" = "Settings";
+"Default.Titles.Cancel" = "Cancel";
+
+"Camera.Notauthorized.Alert" = "Unable to use Camera.\nPlease go to iOS device's Settings > Privacy > Camera and turn GetPhotosApp On";
+"Photos.Notauthorized.Alert" = "Unable to use Photos.\nPlease go to iOS device's Settings > Privacy > Photos and turn GetPhotosApp to Read and Write";
