@@ -13,3 +13,6 @@ Application provides next functionality:
 
 ## Screenshots
 <img src="/Screenshots/ScreenShot1.png" width="250"> <img src="/Screenshots/ScreenShot2.png" width="250"> <img src="/Screenshots/ScreenShot3.png" width="250"> <img src="/Screenshots/custom_camera.png" width="250"> 
+
+## Requirements
+- Xcode 10.x
