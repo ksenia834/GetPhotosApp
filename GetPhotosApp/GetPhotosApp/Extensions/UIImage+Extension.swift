@@ -16,8 +16,8 @@ extension UIImage {
         case high    = 0.75
         case highest = 1
     }
-
+    
     func compressedData(_ quality: Compression) -> Data? {
-        return UIImageJPEGRepresentation(self, quality.rawValue)
+        return self.jpegData(compressionQuality: quality.rawValue)
     }
 }

@@ -22,7 +22,7 @@ final class PhotoGalleryViewController: UIViewController, StoryboardIdentifiable
 
     private let manager  = PhotoLibraryManager()
     
-    var onImageSelected: ((Data?, String?, UIImageOrientation? ) -> Void)?
+    var onImageSelected: ((Data?, String?, UIImage.Orientation? ) -> Void)?
 
     // MARK: - UIViewController lifecycle -
 
@@ -150,7 +150,7 @@ final class PhotoGalleryViewController: UIViewController, StoryboardIdentifiable
         let alertController = UIAlertController(title: "", message: message, preferredStyle: .alert)
         
         let settingsAction = UIAlertAction(title: NSLocalizedString("Settings", comment: ""), style: .default) { _ in
-            if let appSettings = NSURL(string: UIApplicationOpenSettingsURLString) {
+            if let appSettings = NSURL(string: UIApplication.openSettingsURLString) {
                 UIApplication.shared.open(appSettings as URL, options: [:], completionHandler: nil)
             }
         }

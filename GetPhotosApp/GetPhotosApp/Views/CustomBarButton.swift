@@ -12,11 +12,11 @@ class CustomBarButton: UIBarButtonItem {
 
     convenience init(image: UIImage, target: Any?, action: Selector? ) {
         let button = UIButton(type: .custom)
-        button.setImage(image, for: UIControlState.normal)
+        button.setImage(image, for: UIControl.State.normal)
         button.imageView?.contentMode = .scaleAspectFit
 
         if let target = target {
-            button.addTarget(target, action: action!, for: UIControlEvents.touchUpInside)
+            button.addTarget(target, action: action!, for: UIControl.Event.touchUpInside)
         }
 
         if #available(iOS 11.0, *) {

@@ -58,6 +58,6 @@ class MainAppTheme {
         navigationBarAppearace.tintColor        = navigationBarTintColor
         navigationBarAppearace.barTintColor     = navigationBarBarTintColor
         navigationBarAppearace.isTranslucent    = false
-        navigationBarAppearace.titleTextAttributes = [NSAttributedStringKey.foregroundColor: ColorPalette.primaryTextColor, NSAttributedStringKey.font: navigationBarTitleFont]
+        navigationBarAppearace.titleTextAttributes = [NSAttributedString.Key.foregroundColor: ColorPalette.primaryTextColor, NSAttributedString.Key.font: navigationBarTitleFont]
     }
 }

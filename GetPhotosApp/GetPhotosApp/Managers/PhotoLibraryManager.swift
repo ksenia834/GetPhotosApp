@@ -109,7 +109,7 @@ final class PhotoLibraryManager: NSObject {
         })
     }
 
-    func loadImageFromAsset(asset: PHAsset, completion: @escaping ( Data?, String?, UIImageOrientation ) -> Void ) {
+    func loadImageFromAsset(asset: PHAsset, completion: @escaping ( Data?, String?, UIImage.Orientation ) -> Void ) {
         PHImageManager.default().requestImageData(for: asset, options: nil) { data, title, orientation, _ in
             completion(data, title, orientation)
         }
